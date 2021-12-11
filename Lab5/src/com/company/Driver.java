@@ -1,15 +1,15 @@
 package com.company;
 
 public class Driver {
-    private String name = "NoName";
-    private int number = 0;
+    private String name;
+    private int number;
 
-    private int overallRating = 0;
-    private int experience = 0;
-    private int racecraft = 0;
-    private int awareness = 0;
-    private int pace = 0;
-    private double salary = 0;
+    private int overallRating;
+    private int experience;
+    private int racecraft;
+    private int awareness;
+    private int pace;
+    private double salary;
 
     Driver() {
         name = "NoName";
